@@ -1,35 +1,51 @@
-# 链动小铺宣传页
+# 链动小铺｜AI 工具与数字服务导航
 
-一个零依赖、可直接部署到 GitHub Pages 的单页宣传站。
+> 把常见 AI 工具与数字服务方向整理清楚，让你按真实需求更快找到公开入口。
 
-## 上线前的唯一配置
+## 先访问小铺宣传页
 
-打开 `script.js`，填写以下两项：
+**[打开链动小铺公开导航页](https://s988777.github.io/ldxp-showcase/)**
 
-```js
-const storeProfile = {
-  storeUrl: "https://你的公开店铺入口",
-  contactText: "你的公开联系方式",
-};
-```
+页面会持续整理当前的公开服务方向、店铺入口与联系信息；具体可用内容、库存和交付说明以页面中的公开店铺入口为准。
 
-不要填写后台管理地址、对接码、Token、Cookie 或私人敏感信息。
+## 可以从这里找到什么
 
-## 本地预览
+| 方向 | 常见检索词 |
+| --- | --- |
+| GPT 与订阅 | GPT、GPT Plus、GPT Pro、GPT Team、GPT Business、GPT Go、订阅、充值 |
+| 模型与开发 | Gemini、Claude、Codex、Cursor、Grok、Kiro、AI 编程、AI 开发工具 |
+| 创作与内容 | Seedance、Adobe Firefly、Firefly、Kling、可灵、TikTok、AI 绘图、AI 视频 |
+| 其他数字工具 | X 会员、AI 会员、数字订阅、数字资源、各类邮箱、效率工具 |
 
-```bash
-python -m http.server 4173
-```
+## 怎么查找更快
 
-随后在浏览器打开 `http://127.0.0.1:4173`。
+将“品牌词 + 服务词”组合搜索，例如：
 
-## 发布
+- `GPT Plus`
+- `Gemini 充值`
+- `Claude 会员`
+- `Cursor 订阅`
+- `可灵国际版`
 
-将本目录所有文件上传到 GitHub 仓库根目录，并在 **Settings → Pages** 中选择 `main` 分支、`/(root)` 目录发布。
+进入上方公开导航页后，可从“产品关键词”和“联系入口”继续查看当前说明。
 
-## 搜索可见性
+## 小铺原则
 
-- 页面已包含与当前主经营方向相符的可见关键词、FAQ 结构化数据、`robots.txt` 和搜索摘要。
-- `meta keywords` 只作辅助；真正更有用的是页面正文、标题、FAQ、外部公开链接与持续更新。
-- 发布后，把 GitHub Pages 的实际公开网址提交到 Google Search Console 和 Bing Webmaster Tools；站点必须保持公开且不要设置 `noindex`。
-- 第三方名称仅用于说明适用方向和公开分类，不表示官方合作。不要把后台地址、对接码、Token、Cookie 或敏感信息放进页面或仓库。
+- **说明清楚**：先看适用方向和公开说明，再决定是否进入店铺。
+- **分类好找**：按常见搜索词整理，减少无关信息。
+- **持续更新**：公开页面与店铺内容会随实际经营方向调整。
+
+## 公开说明
+
+- 本页提及的 GPT、Gemini、Claude、Codex、Cursor、Grok、Kiro、Seedance、Adobe Firefly、Kling、可灵和 TikTok 等名称，仅用于说明相关服务方向与搜索分类；相关商标归各自权利人所有，不代表官方合作或授权。
+- 本仓库和公开页面不展示后台地址、对接码、Token、Cookie 或其他敏感信息。
+
+<details>
+<summary>关于这个仓库</summary>
+
+这是链动小铺的 GitHub Pages 宣传站源码。网站以静态 HTML、CSS 和 JavaScript 构建，公开页面地址为：
+
+`https://s988777.github.io/ldxp-showcase/`
+
+</details>
+
