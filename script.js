@@ -1,13 +1,13 @@
 // 上线前只需修改这里两项；请不要填入后台地址、对接码、Token、Cookie 或私人敏感信息。
 const storeProfile = {
-  storeUrl: "",
-  contactText: "",
+  storeUrl: "https://pay.ldxp.cn/shop/xiaoen666817",
+  contactText: "1104198281",
 };
 
 const storeLink = document.querySelector("#store-link");
 const copyButton = document.querySelector("#contact-copy");
 const feedback = document.querySelector("#copy-feedback");
-
+0
 if (storeProfile.storeUrl) {
   storeLink.href = storeProfile.storeUrl;
   storeLink.textContent = "进入链动小铺";
