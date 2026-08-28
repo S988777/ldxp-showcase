@@ -1,0 +1,45 @@
+.public-contact {
+  max-width: 620px;
+  margin-top: 31px;
+  padding: 25px 28px;
+  border: 1px solid #e2e1f1;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 16px 36px rgba(30, 32, 79, .05);
+}
+
+.public-contact p {
+  margin: 0 0 6px;
+  color: #717895;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.public-contact a {
+  color: #4f43bd;
+  font-size: 19px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.public-contact strong {
+  display: block;
+  color: #22264d;
+  font-size: 16px;
+}
+
+.public-contact small {
+  display: block;
+  margin-top: 8px;
+  color: #69718e;
+  font-size: 14px;
+}
+
+.public-contact hr {
+  margin: 21px 0;
+  border: 0;
+  border-top: 1px solid #e7e6f0;
+}
+
