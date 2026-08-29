@@ -15,6 +15,7 @@
     <title>链动小铺｜GPT、Gemini、Claude 等 AI 工具与数字服务</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="seo.css" />
+    <link rel="stylesheet" href="group-entry.css" />
     <script type="application/ld+json">
       {"@context":"https://schema.org","@graph":[
         {"@type":"WebSite","name":"链动小铺","url":"https://s988777.github.io/ldxp-showcase/","inLanguage":"zh-CN","description":"公开整理 GPT、Gemini、Claude、Codex、Cursor、Grok、Kiro、Seedance、Firefly、可灵和 TikTok 等 AI 工具与数字服务方向。"},
@@ -38,6 +39,7 @@
         <a href="#services">服务方向</a>
         <a href="#guides">专题页</a>
         <a href="#catalog">产品关键词</a>
+        <a href="qq-bot.html">群内查货</a>
         <a href="#why">小铺原则</a>
         <a href="#contact">联系入口</a>
       </nav>
@@ -54,7 +56,7 @@
           <p class="hero-intro">链动小铺公开整理 GPT、Gemini、Claude、Codex、Cursor、Grok、Kiro、Seedance、Firefly、可灵和 TikTok 等 AI 工具与数字服务方向。少一点信息噪音，多一点明确说明与安心使用。</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#catalog">查看产品关键词 <b>↓</b></a>
-            <a class="button button-quiet" href="#contact">获取上新入口</a>
+            <a class="button button-quiet" href="qq-bot.html#join">加群 @机器人查有货</a>
           </div>
           <ul class="hero-points" aria-label="小铺承诺">
             <li>说明清楚</li><li>分类好找</li><li>持续更新</li>
@@ -119,6 +121,7 @@
           <a class="guide-card guide-gpt" href="gpt-plus.html"><span>01 / GPT 系列</span><h3>GPT Plus、Pro、Team</h3><p>按版本词、服务词与用途词查找 GPT 工具方向。</p><b>进入专题页 →</b></a>
           <a class="guide-card" href="ai-development.html"><span>02 / 模型与开发</span><h3>Gemini、Claude、Cursor</h3><p>按模型、AI 编程和开发工具等方向继续查看。</p><b>进入专题页 →</b></a>
           <a class="guide-card" href="ai-creation.html"><span>03 / 创作与内容</span><h3>AI 绘图、AI 视频、可灵</h3><p>按图片、视频和内容创作任务组织查询词。</p><b>进入专题页 →</b></a>
+          <a class="guide-card group-guide-card" href="qq-bot.html"><span>04 / 群内查货</span><h3>@机器人找当前有货</h3><p>进群后输入 Plus、Claude、Codex 等需求词，先看当前有货的店内商品入口。</p><b>查看使用方法 →</b></a>
         </div>
       </section>
 
@@ -181,15 +184,18 @@
 
       <section id="contact" class="contact-section">
         <div>
-          <p class="eyebrow"><span></span> 保持连接</p>
-          <h2>新的工具与资源，<br />会在这里持续整理。</h2>
+          <p class="eyebrow"><span></span> 群内查货</p>
+          <h2>不知道选哪个？<br />进群 @机器人查有货。</h2>
+          <p class="group-copy">机器人按你的需求词查找当前有货的店内商品入口。例如：Plus、Claude、Codex。具体价格、库存和交付说明以店铺页面为准。</p>
+          <a class="group-text-link" href="qq-bot.html#join">查看进群后的使用方法 →</a>
         </div>
         <div class="contact-card">
           <p>店铺入口</p>
           <a id="store-link" class="contact-link" href="#" rel="noopener noreferrer">请在 script.js 中填写店铺链接 <span>↗</span></a>
           <hr />
-          <p>联系方式</p>
+          <p>加入 QQ 群</p>
           <button id="contact-copy" class="copy-button" type="button" disabled>请在 script.js 中填写联系信息</button>
+          <small class="group-copy-hint">复制群号后进群，再 @机器人输入需求词。</small>
           <small id="copy-feedback" aria-live="polite"></small>
         </div>
       </section>
@@ -203,4 +209,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
