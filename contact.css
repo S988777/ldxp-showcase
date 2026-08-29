@@ -43,3 +43,9 @@
   border-top: 1px solid #e7e6f0;
 }
 
+.public-contact .group-link {
+  display: inline-flex;
+  margin-top: 17px;
+  font-size: 14px;
+  color: #4f43bd;
+}
