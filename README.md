@@ -7,7 +7,7 @@
 **[打开链动小铺公开导航页](https://s988777.github.io/ldxp-showcase/)**
 
 q群：1104198281
-<img width="939" height="985" alt="e065203fe6b633586526bd5b9e6b2b7b" src="https://github.com/user-attachments/assets/d11c1f0f-4b30-49c0-9508-a8d0604cafd0" />
+
 
 
 
