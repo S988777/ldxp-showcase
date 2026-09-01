@@ -208,14 +208,20 @@
           <p class="group-copy">机器人按你的需求词查找当前有货的店内商品入口。例如：Plus、Claude、Codex。具体价格、库存和交付说明以店铺页面为准。</p>
           <a class="group-text-link" href="qq-bot.html#join">查看进群后的使用方法 →</a>
         </div>
-        <div class="contact-card">
-          <p>店铺入口</p>
-          <a id="store-link" class="contact-link" href="#" rel="noopener noreferrer">请在 script.js 中填写店铺链接 <span>↗</span></a>
-          <hr />
-          <p>加入 QQ 群</p>
-          <button id="contact-copy" class="copy-button" type="button" disabled>请在 script.js 中填写联系信息</button>
-          <small class="group-copy-hint">复制群号后进群，再 @机器人输入需求词。</small>
-          <small id="copy-feedback" aria-live="polite"></small>
+        <div class="contact-card-with-qr">
+          <div class="contact-card">
+            <p>店铺入口</p>
+            <a id="store-link" class="contact-link" href="#" rel="noopener noreferrer">请在 script.js 中填写店铺链接 <span>↗</span></a>
+            <hr />
+            <p>加入 QQ 群</p>
+            <button id="contact-copy" class="copy-button" type="button" disabled>请在 script.js 中填写联系信息</button>
+            <small class="group-copy-hint">复制群号后进群，再 @机器人输入需求词。</small>
+            <small id="copy-feedback" aria-live="polite"></small>
+          </div>
+          <figure class="group-qr-card">
+            <img src="qq-group-qr-1104198281.png" width="885" height="885" alt="加入链动小铺 QQ 群的二维码" loading="lazy" />
+            <figcaption>使用 QQ「扫一扫」入群；无法识别时可复制群号。</figcaption>
+          </figure>
         </div>
       </section>
     </main>
