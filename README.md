@@ -7,7 +7,8 @@
 **[打开链动小铺公开导航页](https://s988777.github.io/ldxp-showcase/)**
 
 q群：1104198281
-<img width="1284" height="2283" alt="3ab08e973766ab57527f59a34a1792ff" src="https://github.com/user-attachments/assets/f79f5ef1-068f-4f33-860d-b59e044c0838" />
+<img width="939" height="985" alt="e065203fe6b633586526bd5b9e6b2b7b" src="https://github.com/user-attachments/assets/d11c1f0f-4b30-49c0-9508-a8d0604cafd0" />
+
 
 
 页面会持续整理当前的公开服务方向、店铺入口与联系信息；具体可用内容、库存和交付说明以页面中的公开店铺入口为准。
