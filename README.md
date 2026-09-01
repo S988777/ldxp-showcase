@@ -7,7 +7,13 @@
 **[打开链动小铺公开导航页](https://s988777.github.io/ldxp-showcase/)**
 
 q群：1104198281
-
+<p align="center">
+  <img
+    src="./qq-group-qr-1104198281.png"
+    width="220"
+    alt="链动小铺 QQ 群二维码"
+  />
+</p>
 
 
 
